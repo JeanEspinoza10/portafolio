@@ -1,0 +1,36 @@
+
+
+.contenedorDescripcion {
+    
+    display: flex;
+    justify-content: center;
+    padding: 75px; 
+    gap: 5%; 
+    flex-wrap: wrap;
+}
+
+.contenedorDescripcion div {
+    flex: 1 1 300px; 
+    max-width: 100%; 
+    padding: 2%; 
+    box-sizing: border-box; 
+    line-height: 1.5; 
+    font-size: 25px; 
+
+    
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+/* Media query para dispositivos más pequeños */
+@media screen and (max-width: 1200px) {
+    .contenedorDescripcion {
+        padding: 2%; 
+        gap: 2%; 
+    }
+    .contenedorDescripcion div {
+        flex: 1 1 100%; 
+    }
+}

@@ -1,0 +1,64 @@
+/*
+Estos estilos estan para el allheaders de la carpeta General
+*/
+
+
+.AllHeaders {
+    background-color: #171718;
+    color: #FFFFFF;
+    
+    /* Sirve para que los elementos se direccion en una fila */
+    display: flex;
+    
+    /*Meterle un espaciado entre los elementos*/
+    justify-content: space-between;
+    
+    /*Centrar los elementos*/
+    align-items: center;
+
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    font-size: large;
+    
+    
+}
+
+.AllHeaders a {
+    
+    color: #FFFFFF;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.AllHeaders button {
+    color: #FFFFFF;
+    background-color: #47D16E;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.AllHeaders .activate {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .AllHeaders {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .AllHeaders a {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .AllHeaders button {
+      display: block;
+      margin: 10px auto;
+    }
+  }

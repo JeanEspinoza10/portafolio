@@ -1,0 +1,65 @@
+import { ProyectosAll } from "../../helpers/ProyectosAll";
+
+import '../Styles/styleProyecto.css'
+
+export const ProyectosDescrip = () => {
+
+    // Titulo de la sección
+    const titulo = 'Proyectos';
+
+    // Obtenemos la data para mostrar
+    const {proyectos} = ProyectosAll();
+
+    //Elementos
+    const elementosLi = (variableLista) => {
+
+        return variableLista.map((elemento)=>{
+            const despliegue = elemento.link_despliegue || [];
+            const github = elemento.link_github || [];
+
+
+            
+            
+
+            return(
+                <div key={elemento.id}>
+                    <h3>{elemento.titulo}</h3>
+                    <p>
+                        {
+                            `${elemento.descripcion}`
+                        }
+                    </p>
+                    <figure>
+                        <a href={despliegue} target="_blank">
+                            <img src={elemento.icono_despliegue} alt="" />
+                        </a>
+                        
+                        <a href={github} target="_blank">
+                            
+                            <img className="github" src='src\\img\\github.png' alt="" />
+                        </a>
+                    </figure>
+
+
+                </div>
+
+            )
+
+        });
+
+    }
+
+  return (
+    <>
+        <section className="Proyectos">
+            <h1>{titulo}</h1>
+            <section className="Tarjetas">
+                {
+                    elementosLi(proyectos)
+                }
+            </section>
+
+        </section>
+    </>
+  )
+}
