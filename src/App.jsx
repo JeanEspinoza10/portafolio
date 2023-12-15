@@ -1,4 +1,4 @@
-import { AboutMain } from "./Components/About/Aboutmain"
+import { AboutMain } from "./Components/About/AboutMain"
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import { ProyectosMain } from "./Components/Proyectos/ProyectosMain"
 
