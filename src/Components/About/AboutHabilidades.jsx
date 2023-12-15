@@ -1,4 +1,4 @@
-import { Habilidades } from "../../helpers/habilidades"
+import { Habilidades } from "../helpers/habilidades"
 
 import '../Styles/styleHabilidades.css'
 
