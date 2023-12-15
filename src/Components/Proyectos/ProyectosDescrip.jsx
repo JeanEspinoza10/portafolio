@@ -1,4 +1,4 @@
-import { ProyectosAll } from "../../helpers/ProyectosAll";
+import { ProyectosAll } from "../helpers/ProyectosAll";
 
 import '../Styles/styleProyecto.css'
 
