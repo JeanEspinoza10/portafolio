@@ -1,4 +1,4 @@
-import  {Habilidades} from "../helpers/habilidades"
+import  {Habilidades} from "../helpers/Habilidades"
 
 import '../Styles/styleHabilidades.css'
 
@@ -10,7 +10,7 @@ export const AboutHabilidades = () => {
     const titulo = 'Educación/Habilidades'
     
     // obtenemos los lenguajes y herramientas, son es una lista de objetos
-    const {eduacion} = Habilidades()
+    const {eduacion} = Habilidades();
     
     const redireccionar = (url) => {
         window.open(url, '_blank');

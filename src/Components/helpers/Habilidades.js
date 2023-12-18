@@ -128,7 +128,7 @@ export const Habilidades = () => {
     ]
 
     return {
-        eduacion,
+        eduacion
     }
 
 }
