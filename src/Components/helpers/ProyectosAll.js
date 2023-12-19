@@ -23,10 +23,8 @@ export const ProyectosAll = () => {
         {
             id: 2,
             titulo:'Machine Learning Operations',
-            descripcion:`Para cualquier proceso que involucre datos, debemos comenzar primero con 
-                        una exploración de los datos para poder obtener información sobre las variables, 
-                        las relaciones entre ellas, la calidad de los datos, etc. Para este proyecto, 
-                        los datos se encuentran en el siguiente enlace: Datos en Google Drive          
+            descripcion:`Uno de los principales objetivos de este desarrollo es aplicar las técnicas de exploración de datos, desarrollo APIs REST y 
+                        sistemas de recomendación. Todo esto basado en datos de usuarios de la plataforma de STEAM.
             `,
             tecnologias: [
                 'src\\img\\python-48.ico',

@@ -7,9 +7,9 @@ export const AboutMain = () => {
     
     const miPresentacion = `Ingeniero mecatrónico con sólidos conocimientos en procesos automatizados, sistemas mecatrónicos y 
                             lógica de programación. Desde que me sumergí en el mundo de la tecnología, se convirtió en mi pasión. 
-                            Me enfoqué en adquirir conocimientos en desarrollo web, bases de datos y ciencia de datos, los cuales 
-                            se reflejan en los proyectos personales que he desarrollado. Cada paso en mi trayectoria ha fortalecido 
-                            mi amor por la tecnología, y estoy emocionado por explorar colaboraciones y compartir mis conocimientos en este campo.                            
+                            Me enfoqué en adquirir conocimientos en desarrollo web, bases de datos y ciencia de datos, 
+                            Los cuales se reflejan en los proyectos personales que he desarrollado. Fortaleciendo mis conocimientos en tecnología; por ello,
+                            estoy accesible a compartir mis conocimientos y explorar colaboraciones.                           
 `;
 
     return (
