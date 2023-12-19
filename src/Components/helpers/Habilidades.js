@@ -1,3 +1,5 @@
+import Python_img from '../../img/python-48.ico'
+
 
 export const Habilidades = () => {
 
@@ -29,7 +31,7 @@ export const Habilidades = () => {
                 'React'
             ],
             logos:[
-                'src\\img\\python-48.ico',
+                Python_img,
                 'src\\img\\javascript.png',
                 'src\\img\\django.png',
                 'src\\img\\react.png'
