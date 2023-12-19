@@ -1,4 +1,22 @@
-import Python_img from '../../img/python-48.ico'
+import python_img from '../../img/python-48.ico'
+import javascript_img from '../../img/javascript.png'
+import django_img from '../../img/django.png'
+import react_img from '../../img/react.png'
+
+import postgresql_img from '../../img/postgresql.png'
+import sqlserver_img from '../../img/servidor-microsoft-sql.png'
+import mongo_img from '../../img/mongo.png'
+import mysql_img from '../../img/mysql.png'
+
+import labview_img from '../../img/labview.png'
+import opencv_img from '../../img/opencv.png'
+import matlab_img from '../../img/matlab.png'
+
+
+import datafactory_img from '../../img/data-factory.png'
+import azure_img from '../../img/azure.png'
+import powerbi_img from '../../img/powerbi.png'
+
 
 
 export const Habilidades = () => {
@@ -31,10 +49,10 @@ export const Habilidades = () => {
                 'React'
             ],
             logos:[
-                Python_img,
-                'src\\img\\javascript.png',
-                'src\\img\\django.png',
-                'src\\img\\react.png'
+                python_img,
+                javascript_img,
+                django_img,
+                react_img
             ],
             url_certificado: 'https://academico-cloud.tecsup.edu.pe/pcc/#/home/certificado?c=656360&n=COD/CPE/23/54&t=E'
         
@@ -62,10 +80,10 @@ export const Habilidades = () => {
                 'MySQL'
             ],
             logos:[
-                'src\\img\\postgresql.png',
-                'src\\img\\servidor-microsoft-sql.png',
-                'src\\img\\mongo.png',
-                'src\\img\\mysql.png'
+                postgresql_img,
+                sqlserver_img,
+                mongo_img,
+                mysql_img
             ],
             url_certificado:'https://academico-cloud.tecsup.edu.pe/pcc/#/home/certificado?c=714335&n=COD/CPE/23/131&t=E'
 
@@ -86,9 +104,9 @@ export const Habilidades = () => {
                 
             ],
             logos:[
-                'src\\img\\labview.png',
-                'src\\img\\opencv.png',
-                'src\\img\\matlab.png'
+                labview_img,
+                opencv_img,
+                matlab_img
             ],
             url_certificado:'https://drive.google.com/file/d/1kzyal3ZgKLtVbC0spyYyn3yYjgIgIEdg/view?usp=drive_link'
         
@@ -116,9 +134,9 @@ export const Habilidades = () => {
             ],
             logos:[
                 
-                'src\\img\\data-factory.png',
-                'src\\img\\azure.png',
-                'src\\img\\powerbi.png'
+                datafactory_img,
+                azure_img,
+                powerbi_img
 
             ],
             url_certificado:'https://certificates.soyhenry.com/new-cert?id=ebd1184fe8ba0cbdbca561abe1f1ad61e836e7420a5f54a9b8e1f169317bfbc7'
