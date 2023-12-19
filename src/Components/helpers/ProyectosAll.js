@@ -17,7 +17,8 @@ export const ProyectosAll = () => {
             ],
             link_github: 'https://github.com/JeanEspinoza10/chatbot_restaurante',
             link_despliegue:'',
-            icono_despliegue:''
+            icono_despliegue:'',
+            link_youtube: ''
         },
         {
             id: 2,
@@ -33,7 +34,8 @@ export const ProyectosAll = () => {
             ],
             link_github: 'https://github.com/JeanEspinoza10/PI_MLOps',
             link_despliegue:'',
-            icono_despliegue:''
+            icono_despliegue:'',
+            link_youtube: ''
         }
 
     ];

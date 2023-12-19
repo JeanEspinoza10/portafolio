@@ -1,5 +1,8 @@
 import { ProyectosAll } from "../helpers/ProyectosAll";
 
+import github_img from '../../img/github.png'
+import youtube_img from '../../img/youtube.png'
+
 import '../Styles/styleProyecto.css'
 
 export const ProyectosDescrip = () => {
@@ -16,6 +19,7 @@ export const ProyectosDescrip = () => {
         return variableLista.map((elemento)=>{
             const despliegue = elemento.link_despliegue || [];
             const github = elemento.link_github || [];
+            const youtube = elemento.link_youtube || [];
 
 
             
@@ -36,7 +40,11 @@ export const ProyectosDescrip = () => {
                         
                         <a href={github} target="_blank">
                             
-                            <img className="github" src='src\\img\\github.png' alt="" />
+                            <img className="github" src= {github_img} alt="" />
+                        </a>
+                        <a href={youtube} target="_blank">
+                            
+                            <img className="github" src={youtube_img} alt="" />
                         </a>
                     </figure>
 
