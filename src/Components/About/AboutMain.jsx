@@ -5,13 +5,11 @@ import { AboutHabilidades } from "./AboutHabilidades";
 
 export const AboutMain = () => {
     
-    const miPresentacion = `Como ingeniero mecatrónico, me he sumergido en el desarrollo de procesos automatizados y sistemas mecatrónicos, 
-                            adquiriendo sólidos conocimientos en lógica de programación. Mi especialización abarca el desarrollo web, 
-                            explorando Python, Flask y Django, donde he creado experiencias dinámicas 
-                            con Javascript y React. Cada paso en mi trayectoria ha fortalecido mi pasión por la tecnología, y 
-                            estoy entusiasmado por explorar colaboraciones y compartir mis conocimientos en este campo. Te invito a 
-                            descubrir más sobre mi trabajo en mi portafolio, seguro de que encontrarás interesantes mis proyectos y logros.
-    
+    const miPresentacion = `Ingeniero mecatrónico con sólidos conocimientos en procesos automatizados, sistemas mecatrónicos y 
+                            lógica de programación. Desde que me sumergí en el mundo de la tecnología, se convirtió en mi pasión. 
+                            Me enfoqué en adquirir conocimientos en desarrollo web, bases de datos y ciencia de datos, los cuales 
+                            se reflejan en los proyectos personales que he desarrollado. Cada paso en mi trayectoria ha fortalecido 
+                            mi amor por la tecnología, y estoy emocionado por explorar colaboraciones y compartir mis conocimientos en este campo.                            
 `;
 
     return (
@@ -26,5 +24,4 @@ export const AboutMain = () => {
     
   )
 }
-
 
