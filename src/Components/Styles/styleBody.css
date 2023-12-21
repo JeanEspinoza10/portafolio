@@ -2,9 +2,26 @@ body {
     padding: 0;
     margin: 0;
     background-color:#272728;
-    
+   
     color: white;
+
+   
+
+}
+
+#root {
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
     
     
 
+    /*position: relative;*/
+    min-height: 100vh; /* Mínimo 100% de la altura de la ventana del navegador */
+    min-width: 100vh;
+
+    
 }

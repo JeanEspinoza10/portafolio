@@ -7,9 +7,9 @@ export const ProyectosMain = () => {
   
     return (
         <>
-            <AllHeaders name={'Jean'}/> 
+             
             <ProyectosDescrip/>  
-            <AllFotter name={'Jean'}/>
+            
         </>
   )
 }

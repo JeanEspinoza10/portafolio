@@ -2,13 +2,12 @@
     
     background-color: #171718;
     color: #FFFFFF;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 20px;
-    font-size: large;
-    margin: 0;
-   
-
+    
+    height: auto;
+    width: 100%;    
+    
+    
+    
 
   }
 
@@ -21,12 +20,13 @@ a {
     text-decoration: none;
 }
 .Contáctame {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
+    font-size: large;
     padding-top: 10px;
     align-items: center;
-  
-    
    
-    
 }
 
 

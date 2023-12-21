@@ -15,10 +15,10 @@ export const AboutMain = () => {
     return (
         <>
             
-            <AllHeaders name={'Jean'}/>
+            
             <AboutDescription contenido={miPresentacion}/>        
             <AboutHabilidades/>
-            <AllFotter name={'Jean'}/>
+            
         </>
     
     
