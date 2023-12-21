@@ -1,16 +1,13 @@
 .Footer {
     
+    background-color: #171718;
+    color: #FFFFFF;
     padding-left: 75px;
     padding-right: 75px;
     padding-bottom: 20px;
     font-size: large;
-
+    margin: 0;
    
-    bottom: 0;
-    
-    
-    background-color: #171718;
-    color: #FFFFFF;
 
 
   }
@@ -23,11 +20,13 @@ a {
     color: white;
     text-decoration: none;
 }
-.Footer div {
+.Contáctame {
     padding-top: 10px;
     align-items: center;
+  
     
    
     
 }
+
 
