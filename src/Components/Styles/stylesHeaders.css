@@ -6,22 +6,16 @@ Estos estilos estan para el allheaders de la carpeta General
 .AllHeaders {
     background-color: #171718;
     color: #FFFFFF;
-    
     /* Sirve para que los elementos se direccion en una fila */
     display: flex;
-    
+    flex-wrap: wrap;
     /*Meterle un espaciado entre los elementos*/
     justify-content: space-between;
-    
     /*Centrar los elementos*/
     align-items: center;
-
     padding-left: 75px;
     padding-right: 75px;
-    
     font-size: large;
-    
-    
 }
 
 .AllHeaders a {
@@ -48,8 +42,10 @@ Estos estilos estan para el allheaders de la carpeta General
 @media screen and (max-width: 1200px) {
     .AllHeaders {
       flex-direction: column;
-      text-align: center;
-      padding: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0px;
+      padding: 0px;
     }
   
     .AllHeaders a {
