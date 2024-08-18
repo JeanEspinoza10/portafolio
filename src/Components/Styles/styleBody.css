@@ -3,12 +3,13 @@ body {
     margin: 0;
     background-color:#272728;
     color: white;
+    height: 100dvh;
 }
 
 #root {
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content: space-between;
+    height: 100dvh;
 }
