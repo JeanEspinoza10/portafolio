@@ -2,6 +2,7 @@ import { AllFotter } from "../General/AllFotter";
 import { AllHeaders } from "../General/AllHeaders"
 import { AboutDescription } from "./AboutDescription"
 import { AboutHabilidades } from "./AboutHabilidades";
+import { AboutHistory } from "./AboutHistory";
 
 export const AboutMain = () => {
     
@@ -16,7 +17,8 @@ export const AboutMain = () => {
         <>
             
             
-            <AboutDescription contenido={miPresentacion}/>        
+            <AboutDescription contenido={miPresentacion}/>   
+            <AboutHistory/>     
             <AboutHabilidades/>
             
         </>
