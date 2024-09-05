@@ -38,4 +38,9 @@ h1 {
     .contenedorDescripcion div {
         flex: 1 1 100%; 
     }
+    .contenedorDescripcion  img {
+        width: 350px;
+        height: 350px;
+        border-radius: 25px;
+    }
 }

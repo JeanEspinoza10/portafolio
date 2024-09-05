@@ -8,7 +8,7 @@ Estos estilos estan para el allheaders de la carpeta General
     color: #FFFFFF;
     /* Sirve para que los elementos se direccion en una fila */
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     /*Meterle un espaciado entre los elementos*/
     justify-content: space-between;
     /*Centrar los elementos*/
@@ -41,6 +41,7 @@ Estos estilos estan para el allheaders de la carpeta General
 
 @media screen and (max-width: 1200px) {
     .AllHeaders {
+      
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
