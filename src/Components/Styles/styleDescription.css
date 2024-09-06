@@ -22,7 +22,7 @@
 
 img {
     
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 h1 {
@@ -41,6 +41,6 @@ h1 {
     .contenedorDescripcion  img {
         width: 350px;
         height: 350px;
-        border-radius: 25px;
+        border-radius: 50%;
     }
 }

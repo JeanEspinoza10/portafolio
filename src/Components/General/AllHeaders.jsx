@@ -1,54 +1,47 @@
 import { AllButtons } from "./AllButtons";
 
+import "../Styles/stylesHeaders.css";
+import { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
-import '../Styles/stylesHeaders.css'
-import { useState } from "react";
-import { useEffect } from "react";
+export const AllHeaders = ({ name }) => {
+  // Nombre que mostrara al inicio de header
 
+  // Estos nombres son lo se visulizara en el headers esta correlacionado con las rutas
+  const pagesAll = ["Acerca", "Proyectos"];
 
-export const AllHeaders = ({name}) => {
-    
-    // Nombre que mostrara al inicio de header
-    
+  const [pathName, setpathName] = useState("");
 
-    // Estos nombres son lo se visulizara en el headers esta correlacionado con las rutas
-    const pagesAll = [ 'Acerca', 'Proyectos'];
-    
-    const [pathName, setpathName] = useState('')
+  return (
+    <>
+      <section className="AllHeaders">
+        <h3>{name}</h3>
 
-    const rutaActual = window.location.pathname;
+        <div>
+          <NavLink
+            to="/Acerca"
+            style={({ isActive }) => {
+              return {
+                textDecoration: isActive ? "underline" : "none",
+              };
+            }}
+          >
+            Acerca
+          </NavLink>
+          <NavLink
+            to="/Proyectos"
+            style={({ isActive }) => {
+              return {
+                textDecoration: isActive ? "underline" : "none",
+              };
+            }}
+          >
+            Proyectos
+          </NavLink>
+        </div>
 
-    useEffect(() => {
-
-        
-        setpathName(rutaActual)
-
-    }, [])
-    
-    const formateoRuta = pathName.split('/').join('');
-    
-    return (
-        <>
-            <section className="AllHeaders">
-                <h3>{name}</h3>    
-                
-                <div>
-                    {
-                        pagesAll.map((page,index)=>{
-                            
-                            return (
-                            
-                            <a key={page} href={`/${page}`} className={formateoRuta===page?'activate':""}> {page}</a>
-                            
-                            )
-                        })
-                    }
-                </div>           
-                <AllButtons nameButton={"Descargar CV"}/>
-            </section>
-            
-            
-           
-        </>
-  )
-}
+        <AllButtons nameButton={"Descargar CV"} />
+      </section>
+    </>
+  );
+};
