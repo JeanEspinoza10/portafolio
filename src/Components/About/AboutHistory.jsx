@@ -23,7 +23,7 @@ export const AboutHistory = () => {
             title: 'Especialista en soporte técnico',
             subtitle: 'COFOPRI',
             description: 'Atender los diferentes requerimientos o incidencias que generaban lo usuarios en el sistema de tickets OTRS.',
-            date: '2022',
+            date: 'Julio 2022 - Diciembre 2022',
             icon_self: assistant,
             skills: [service_desk]
         },
@@ -32,7 +32,7 @@ export const AboutHistory = () => {
             title: 'Asistente de Mesa de Ayuda',
             subtitle: 'Superintendencia Nacional de Migraciones Perú',
             description: 'Automatizar tickets vía API, categorización y cierre. Reportes con Power BI y Excel. Capacitación y manuales en PROACTIVANET',
-            date: '2023',
+            date: 'Enero 2023 - Diciembre 2023',
             icon_self: assistant,
             skills: [python_img,service_desk,automata]
         },
@@ -41,7 +41,7 @@ export const AboutHistory = () => {
             title: 'Desarrollador de back-end',
             subtitle: 'ixalab',
             description: 'Colaborar con el desarrollo de un MVP, teniendo como framework Django y la aplicación de la metodología SCRUM.',
-            date: '2024',
+            date: 'Enero 2024',
             icon_self: development,
             skills: [django_img, mysql_img,git]
         },
@@ -50,7 +50,7 @@ export const AboutHistory = () => {
             title: 'Programador TIC',
             subtitle: 'Win Empresas',
             description: 'Desarrollo de APIS con Flask y autenticación con Keycloak. Atender los requerimientos del sistema ODOO. Realizar reportes mediante la conexión a la base de datos PostgreSQL',
-            date: '2024 - Present',
+            date: 'Marzo 2024 - Setiembre 2024',
             icon_self: development,
             skills: [postgresql_img, python_img, flask_png,javascript_img ]
         }
