@@ -1,10 +1,21 @@
 .Footer {
-    
     background-color: #171718;
     color: #FFFFFF;
-   
     width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .Contáctame {
+    width: 800px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    padding-top: 10px;
+    align-items: center;
+}
 
 h4 {
     color: #47D16E;
@@ -13,14 +24,6 @@ h4 {
 a {
     color: white;
     text-decoration: none;
-}
-.Contáctame {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 20px;
-    font-size: large;
-    padding-top: 10px;
-    align-items: center;
 }
 
 

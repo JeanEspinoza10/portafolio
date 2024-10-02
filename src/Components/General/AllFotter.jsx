@@ -10,14 +10,10 @@ export const AllFotter = ({name}) => {
     return (
     <>
         <section className="Footer"> 
-
-            
             <div className="Contáctame">
                 <h4>Contáctame</h4>
                 <a href="https://www.linkedin.com/in/jcespinozacdev/" target="_blank">Linkedin</a>
-                
             </div>            
-            
         </section>
     </>
   )
