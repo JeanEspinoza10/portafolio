@@ -1,6 +1,9 @@
+.container-habilidades {
+    width: 800px;
+}
+
 .Habilidades {
-    
-    
+    width:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,92 +14,51 @@
 }
 
 .Habilidades h1 {
-    margin-bottom: 35px;
-    color: #47D16E;
-    font-size: 30px;
-
-    
+  margin-bottom: 35px;
+  color: #47d16e;
+  font-size: 30px;
 }
 
-
 .HabilidadesDescripcion {
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    gap: 50px;
-    justify-content: space-between;
-    
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 10px;
 }
 
 /*Dando formato a cada elemento de la caja*/
 
 .HabilidadesDescripcion div {
-    
-    background-color: #1F1F21;
-    
-    width: calc(50% - 25px);
-
-    
-    position: relative;
-
-
-    border-radius: 15px;
-    line-height: 1.5;
-    
-    
-
+  background-color: #1f1f21;
+  border-radius: 25px;
+  line-height: 1.5;
 }
-
-
-
-
 
 .HabilidadesDescripcion div h3 {
-
-    font-size: 25px;
-    color: white;
-    font-family: "DM Sans";
-    text-align: center;
-    
+  font-size: 25px;
+  color: white;
+  font-family: "DM Sans";
+  text-align: center;
 }
 
-
-
 .HabilidadesDescripcion div p {
-    font-size: 20px;
-    font-family: "DM Sans";
-    margin-left: 10px;
-    margin-right: 10px;
-
+  font-size: 22px;
+  font-family: "DM Sans";
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .HabilidadesDescripcion div figure {
-    
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-
-
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*Responsive*/
-@media (max-width: 1200px) {
-    .HabilidadesDescripcion div {
-      width: 100%; /* Establece el ancho completo para cada elemento en dispositivos pequeños */
-      margin-bottom: 20px; /* Espacio entre los elementos */
+@media (max-width: 799px) {
+    .container-habilidades {
+        width: auto;
     }
-  }
+}

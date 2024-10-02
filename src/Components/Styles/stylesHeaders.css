@@ -4,44 +4,59 @@ Estos estilos estan para el allheaders de la carpeta General
 
 
 .AllHeaders {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
     background-color: #171718;
     color: #FFFFFF;
-    /* Sirve para que los elementos se direccion en una fila */
     display: flex;
-    flex-direction: row;
-    /*Meterle un espaciado entre los elementos*/
-    justify-content: space-between;
-    /*Centrar los elementos*/
+    justify-content: center;
     align-items: center;
-    padding-left: 75px;
-    padding-right: 75px;
-    font-size: large;
+    font-size:x-large;
 }
 
-.AllHeaders a {
+.container-header {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+
+.container-links a {
+  margin: 10px;
+}
+
+.container-header a {
+    align-items: center;
     color: #FFFFFF;
-    margin-right: 25px;
     text-decoration: none;
 }
 
-.AllHeaders button {
+.container-header button {
     color: #FFFFFF;
     background-color: #47D16E;
     padding: 10px 20px;
     border-radius: 10px;
     font-size: large;
+
 }
 
-.AllHeaders .activate {
+.container-header .activate {
     text-decoration: underline;
 }
 
 
 
-@media screen and (max-width: 1200px) {
-    .AllHeaders {
-      
+@media screen and (max-width: 799px) {
+  .AllHeaders {
+    padding: 0px;
+  }
+    .container-header {
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
@@ -49,13 +64,19 @@ Estos estilos estan para el allheaders de la carpeta General
       padding: 0px;
     }
   
-    .AllHeaders a {
+    .container-header a {
       display: block;
       margin: 10px 0;
     }
     
-    .AllHeaders button {
+    .container-header button {
       display: block;
       margin: 10px auto;
+    }
+    .container-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }

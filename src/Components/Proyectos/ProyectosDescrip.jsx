@@ -40,9 +40,11 @@ export const ProyectosDescrip = () => {
   const { proyectos } = ProyectosAll();
   return (
     <>
-      <section className="Proyectos">
-        <h1>{titulo}</h1>
-        <section className="Tarjetas">{elementosLi(proyectos)}</section>
+      <section className="container-proyectos">
+        <section className="Proyectos">
+          <h1>{titulo}</h1>
+          <section className="Tarjetas">{elementosLi(proyectos)}</section>
+        </section>
       </section>
     </>
   );

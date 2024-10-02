@@ -54,19 +54,16 @@ export const AboutHabilidades = () => {
 
     }
     return (
-    <>
-       <section className="Habilidades">
+      <>
+        <section className="container-habilidades">
+          <section className="Habilidades">
             <h1>{titulo}</h1>
-            
+
             <section className="HabilidadesDescripcion">
-                {
-                    elementosLi(eduacion)
-                }
+              {elementosLi(eduacion)}
             </section>
-            
-            
-       </section>
-    </>
-  
-  )
+          </section>
+        </section>
+      </>
+    );
 }

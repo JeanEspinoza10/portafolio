@@ -31,7 +31,7 @@ export const AboutHistory = () => {
             id: 2,
             title: 'Asistente de Mesa de Ayuda',
             subtitle: 'Superintendencia Nacional de Migraciones Perú',
-            description: 'Automatizar tickets vía API, categorización y cierre. Reportes con Power BI y Excel. Capacitación y manuales en PROACTIVANET',
+            description: 'Automatizar procesos de ticket del PROACTIVANET vía API. Reportes con Power BI y Excel.',
             date: 'Enero 2023 - Diciembre 2023',
             icon_self: assistant,
             skills: [python_img,service_desk,automata]
@@ -49,7 +49,7 @@ export const AboutHistory = () => {
             id: 4,
             title: 'Programador TIC',
             subtitle: 'Win Empresas',
-            description: 'Desarrollo de APIS con Flask y autenticación con Keycloak. Atender los requerimientos del sistema ODOO. Realizar reportes mediante la conexión a la base de datos PostgreSQL',
+            description: 'Atender requerimientos del sistema ODOO. Utilizar Flask,JavaScript y Python para realizar automatizaciones.',
             date: 'Marzo 2024 - Setiembre 2024',
             icon_self: development,
             skills: [postgresql_img, python_img, flask_png,javascript_img ]
@@ -66,6 +66,7 @@ export const AboutHistory = () => {
                         background: 'rgb(31, 31, 33)',
                         color: '#fff',
                         perspective: '1000px',
+                        height: '100%'
                     }}
                     contentArrowStyle={{ borderRight: '7px solid  #47D16E' }}
                     date={elemento.date}
@@ -79,6 +80,7 @@ export const AboutHistory = () => {
                         alignItems: 'center'
                     }}
                     icon={<img src={elemento.icon_self} alt="work" />}
+                    
                 >
 
                     <h3 className="vertical-timeline-element-title">{elemento.title}</h3>
@@ -104,20 +106,19 @@ export const AboutHistory = () => {
         })
     }
 
-    return <>
-        <section className='history'>
+    return (
+      <>
+        <section className="container-history">
+          <section className="history">
             <h1>Experiencia Laboral</h1>
-
-            <VerticalTimeline>
-                {
-                    cardElement(experienciaLaboral)
-                }
+                <VerticalTimeline layout='1-column'>
+                {cardElement(experienciaLaboral)}
                 <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                >
-                </VerticalTimelineElement>
-            </VerticalTimeline>
-
+                    iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+                ></VerticalTimelineElement>
+                </VerticalTimeline>
+          </section>
         </section>
-    </>
+      </>
+    );
 }

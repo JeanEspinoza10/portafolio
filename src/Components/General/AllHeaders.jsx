@@ -1,13 +1,10 @@
 import { AllButtons } from "./AllButtons";
-
-import "../Styles/stylesHeaders.css";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-export const AllHeaders = ({ name }) => {
-  // Nombre que mostrara al inicio de header
+import "../Styles/stylesHeaders.css";
 
-  // Estos nombres son lo se visulizara en el headers esta correlacionado con las rutas
+export const AllHeaders = ({ name }) => {
   const pagesAll = ["Acerca", "Proyectos"];
 
   const [pathName, setpathName] = useState("");
@@ -15,32 +12,34 @@ export const AllHeaders = ({ name }) => {
   return (
     <>
       <section className="AllHeaders">
-        <h3>{name}</h3>
+        <header className="container-header">
+          <h3>{name}</h3>
 
-        <div>
-          <NavLink
-            to="/Acerca"
-            style={({ isActive }) => {
-              return {
-                textDecoration: isActive ? "underline" : "none",
-              };
-            }}
-          >
-            Acerca
-          </NavLink>
-          <NavLink
-            to="/Proyectos"
-            style={({ isActive }) => {
-              return {
-                textDecoration: isActive ? "underline" : "none",
-              };
-            }}
-          >
-            Proyectos
-          </NavLink>
-        </div>
+          <div className="container-links">
+            <NavLink
+              to="/Acerca"
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ? "underline" : "none",
+                };
+              }}
+            >
+              Acerca
+            </NavLink>
+            <NavLink
+              to="/Proyectos"
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ? "underline" : "none",
+                };
+              }}
+            >
+              Proyectos
+            </NavLink>
+          </div>
 
-        <AllButtons nameButton={"Descargar CV"} />
+          <AllButtons nameButton={"Descargar CV"} />
+        </header>
       </section>
     </>
   );

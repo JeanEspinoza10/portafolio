@@ -15,4 +15,5 @@ body {
     flex-direction: column;
     flex-grow: 1; /* Permite que #root ocupe el espacio restante */
     justify-content: space-between;
+    width: 100%;
 }

@@ -1,19 +1,23 @@
-.Proyectos  {
-    height: auto;
+.container-proyectos {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Proyectos {
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 75px;
-    flex-grow: 1; 
+    padding: 25px;
 }
 
 .Proyectos h1 {
     margin-bottom: 35px;
     color: #47D16E;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 /*Dando formatos a las tarjetas*/
@@ -22,32 +26,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     gap: 50px;
     justify-content: space-between;
-    
 }
-
-
 
 .Tarjetas div {
     background-color: #1F1F21;
-    
-    width: calc(50% - 25px);
-
     display: flex;
-    
     flex-direction: column;
-    justify-content: space-between ;
-
+    justify-content: space-between;
     border-radius: 15px;
     line-height: 1.5;
-
-
 }
 
 .Tarjetas div h3 {
-
     font-size: 25px;
     color: white;
     font-family: "DM Sans";
@@ -55,36 +47,25 @@
 }
 
 .Tarjetas div p {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "DM Sans";
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .Tarjetas div figure {
-    
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-
-
 }
 
 .Proyectos .github {
-
     background-color: white;
     border-radius: 80px;
 }
 
-/*Responsive*/
-@media (max-width: 1200px) {
-    .Proyectos  {
-       height: 100%;
+@media screen and (max-width: 799px) {
+    .container-proyectos {
+        padding-top: 280px;
     }
-    .Tarjetas div  {
-      width: 100%; /* Establece el ancho completo para cada elemento en dispositivos pequeños */
-      margin-bottom: 20px; /* Espacio entre los elementos */
-    }
-  }
-
+}

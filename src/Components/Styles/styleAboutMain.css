@@ -1,0 +1,14 @@
+.main-all-container{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+}
+
+@media screen and (max-width: 799px) {
+    .main-all-container{
+        padding-top: 280px;
+}
+}
