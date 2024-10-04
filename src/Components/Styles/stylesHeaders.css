@@ -55,6 +55,7 @@ Estos estilos estan para el allheaders de la carpeta General
 @media screen and (max-width: 799px) {
   .AllHeaders {
     padding: 0px;
+    width: 100dvw; 
   }
     .container-header {
       flex-direction: column;

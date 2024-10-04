@@ -59,6 +59,11 @@
 /*Responsive*/
 @media (max-width: 799px) {
     .container-habilidades {
-        width: auto;
+        width: 100%;
+    }
+
+    .Habilidades {
+        width: 100%;
+        padding: 0px;
     }
 }
