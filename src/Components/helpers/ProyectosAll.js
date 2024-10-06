@@ -22,18 +22,18 @@ export const ProyectosAll = () => {
         },
         {
             id: 2,
-            titulo:'Machine Learning Operations',
-            descripcion:`Uno de los principales objetivos de este desarrollo es aplicar las técnicas de exploración de datos, desarrollo APIs REST y 
-                        sistemas de recomendación. Todo esto basado en datos de usuarios de la plataforma de STEAM.
+            titulo:'APP Aprendizaje Inglés',
+            descripcion:`Realice este proyecto para que apartir de una frase en español se obtenga la traducción al inglés, imagen de la frase y el audio en inglés.
+                        Para esto utilice las APIS de OpenIA y ElevenLabs.
             `,
             tecnologias: [
                 'src\\img\\python-48.ico',
                 'src\\img\\mongo.png'
             ],
-            link_github: 'https://github.com/JeanEspinoza10/PI_MLOps',
+            link_github: 'https://appingles.site/home',
             link_despliegue:'',
             icono_despliegue:'',
-            link_youtube: 'https://youtu.be/tTMr4Cikd4c'
+            link_youtube: 'https://appingles.site/home'
         },
         {
             id: 3,
