@@ -1,3 +1,4 @@
+import dominio from "../../img/dominio.png";
 
 export const ProyectosAll = () => {
 
@@ -30,10 +31,10 @@ export const ProyectosAll = () => {
                 'src\\img\\python-48.ico',
                 'src\\img\\mongo.png'
             ],
-            link_github: 'https://appingles.site/home',
-            link_despliegue:'',
-            icono_despliegue:'',
-            link_youtube: 'https://appingles.site/home'
+            link_github: '',
+            link_despliegue:'https://appingles.site/home',
+            icono_despliegue:dominio,
+            link_youtube: ''
         },
         {
             id: 3,
