@@ -16,7 +16,7 @@
 .Habilidades h1 {
   margin-bottom: 35px;
   color: #47d16e;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .HabilidadesDescripcion {
@@ -34,20 +34,24 @@
   background-color: #1f1f21;
   border-radius: 25px;
   line-height: 1.5;
+  transition: transform 0.5s ease;
+}
+
+.HabilidadesDescripcion div:hover {
+  transform: scale(1.1);
 }
 
 .HabilidadesDescripcion div h3 {
   font-size: 25px;
-  color: white;
+  color: #47d16e;
   font-family: "DM Sans";
-  text-align: center;
+  margin: 20px 10px 0px 20px;
 }
 
 .HabilidadesDescripcion div p {
   font-size: 22px;
   font-family: "DM Sans";
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 0px 20px;
 }
 
 .HabilidadesDescripcion div figure {

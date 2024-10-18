@@ -17,7 +17,7 @@
 .Proyectos h1 {
     margin-bottom: 35px;
     color: #47D16E;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /*Dando formatos a las tarjetas*/
@@ -26,31 +26,35 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 35px;
+    margin: 10px;
 }
 
 .Tarjetas div {
     background-color: #1F1F21;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border-radius: 15px;
+    border-radius: 25px;
     line-height: 1.5;
+    transition: transform 0.5s ease;
+    padding: 25px;
+}
+
+.Tarjetas div:hover {
+  transform: scale(1.1);
 }
 
 .Tarjetas div h3 {
-    font-size: 25px;
-    color: white;
+    font-size: 30px;
+    color: #47D16E;
     font-family: "DM Sans";
-    text-align: center;
+    margin: 0px 10px 10px 10px;
 }
 
 .Tarjetas div p {
     font-size: 25px;
     font-family: "DM Sans";
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .Tarjetas div figure {
