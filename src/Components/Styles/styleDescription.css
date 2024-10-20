@@ -39,6 +39,7 @@
         width: auto;
         flex-direction: column;
         margin-top: 10px;
+        margin-left: 10px;
         gap: 10px; 
     }
     .container-description-content div {

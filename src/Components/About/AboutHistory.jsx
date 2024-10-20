@@ -66,7 +66,8 @@ export const AboutHistory = () => {
                         background: 'rgb(31, 31, 33)',
                         color: '#fff',
                         perspective: '1000px',
-                        height: '100%'
+                        height: '100%',
+                        boxShadow: '0px 15px 15px rgba(0, 0, 0, 1)'
                     }}
                     contentArrowStyle={{ borderRight: '7px solid  #47D16E' }}
                     date={elemento.date}
@@ -77,7 +78,8 @@ export const AboutHistory = () => {
                         overflow: 'hidden',
                         display: 'flex',
                         justifyContent: 'center',
-                        alignItems: 'center'
+                        alignItems: 'center',
+                        
                     }}
                     icon={<img src={elemento.icon_self} alt="work" />}
                     

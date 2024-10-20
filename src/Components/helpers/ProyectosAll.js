@@ -1,10 +1,41 @@
 import dominio from "../../img/dominio.png";
+import appingles from "../../img/proyectos/appingles.svg";
 
 export const ProyectosAll = () => {
 
     const proyectos = [
         {
             id: 1,
+            titulo:'App Aprendizaje Inglés',
+            descripcion:`Aplicación web enfocado en el aprendizaje de frases en inglés. Utilizando la PhraseForge API.
+            `,
+            tecnologias: [
+                'src\\img\\python-48.ico',
+                'src\\img\\mongo.png'
+            ],
+            link_github: '',
+            link_despliegue:'https://appingles.site/home',
+            icono_despliegue:dominio,
+            link_youtube: '',
+            url_img: appingles
+        },
+        {
+            id: 2,
+            titulo:'PhraseForge API',
+            descripcion:`API para generar frases de español a inglés, junto con su imagen y sonido en inglés correspondientes.
+            `,
+            tecnologias: [
+                'src\\img\\python-48.ico',
+                'src\\img\\mongo.png'
+            ],
+            link_github: 'https://github.com/JeanEspinoza10/backendAppLearning',
+            link_despliegue:'https://ingles.appdevelopmentapis.site/',
+            icono_despliegue:dominio,
+            link_youtube: ''
+
+        },
+        {
+            id: 3,
             titulo:'ChatBot',
             descripcion:`Este proyecto tiene como objetivo implementar un Producto 
                         Mínimo Viable (MVP) para un chatbot destinado a un restaurante. 
@@ -22,22 +53,7 @@ export const ProyectosAll = () => {
             link_youtube: ''
         },
         {
-            id: 2,
-            titulo:'APP Aprendizaje Inglés',
-            descripcion:`Realice este proyecto para que apartir de una frase en español se obtenga la traducción al inglés, imagen de la frase y el audio en inglés.
-                        Para esto utilice las APIS de OpenIA y ElevenLabs.
-            `,
-            tecnologias: [
-                'src\\img\\python-48.ico',
-                'src\\img\\mongo.png'
-            ],
-            link_github: '',
-            link_despliegue:'https://appingles.site/home',
-            icono_despliegue:dominio,
-            link_youtube: ''
-        },
-        {
-            id: 3,
+            id: 4,
             titulo:'Bootcamp Henry - Data Science - Proyecto Yelps',
             descripcion:`Este proyecto tuvo un enfoque de estar bajo un entorno real de desarrollo. 
                         Para comenzar, aplicamos la metodología SCRUM, seguidamente definimos los 
