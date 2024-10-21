@@ -12,7 +12,10 @@ export const AllFotter = ({name}) => {
         <section className="Footer"> 
             <div className="Contáctame">
                 <h4>Contáctame</h4>
-                <a href="https://www.linkedin.com/in/jcespinozacdev/" target="_blank">Linkedin</a>
+                <section className='link-contact'>
+                    <a href="https://www.linkedin.com/in/jcespinozacdev/" target="_blank">Linkedin</a>
+                    <a href="https://github.com/JeanEspinoza10" target="_blank">GitHub</a>
+                </section>
             </div>            
         </section>
     </>

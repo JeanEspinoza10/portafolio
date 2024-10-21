@@ -1,13 +1,14 @@
 import dominio from "../../img/dominio.png";
 import appingles from "../../img/proyectos/appingles.svg";
+import apideploy from "../../img/proyectos/apideploy.svg";
 
 export const ProyectosAll = () => {
 
     const proyectos = [
         {
             id: 1,
-            titulo:'App Aprendizaje Inglés',
-            descripcion:`Aplicación web enfocado en el aprendizaje de frases en inglés. Utilizando la PhraseForge API.
+            titulo:'Aprendiendo Inglés',
+            descripcion:`Aplicación web enfocado en el aprendizaje del idioma inglés mediante frases. Utilizando la PhraseForge API se cumple con el objetivo de generar frases en inglés.
             `,
             tecnologias: [
                 'src\\img\\python-48.ico',
@@ -31,17 +32,14 @@ export const ProyectosAll = () => {
             link_github: 'https://github.com/JeanEspinoza10/backendAppLearning',
             link_despliegue:'https://ingles.appdevelopmentapis.site/',
             icono_despliegue:dominio,
-            link_youtube: ''
+            link_youtube: '',
+            url_img: apideploy
 
         },
         {
             id: 3,
             titulo:'ChatBot',
-            descripcion:`Este proyecto tiene como objetivo implementar un Producto 
-                        Mínimo Viable (MVP) para un chatbot destinado a un restaurante. 
-                        El chatbot permitirá a los clientes interactuar con el restaurante a través de WhatsApp utilizando la API oficial de WhatsApp. 
-                        La aplicación estará desarrollada utilizando la librería Flask de Python 
-                        y almacenará la información en una base de datos PostgreSQL.
+            descripcion:`Proyecto creado con el objetivo de transformar la experiencia de atención en restaurantes, cubriendo la necesidad urgente de un chatbot eficiente.
             `,
             tecnologias: [
                 'src\\img\\python-48.ico',
@@ -54,11 +52,8 @@ export const ProyectosAll = () => {
         },
         {
             id: 4,
-            titulo:'Bootcamp Henry - Data Science - Proyecto Yelps',
-            descripcion:`Este proyecto tuvo un enfoque de estar bajo un entorno real de desarrollo. 
-                        Para comenzar, aplicamos la metodología SCRUM, seguidamente definimos los 
-                        roles dentro de nuestro grupo. El rol que asumí fue el de Data Engineer, teniendo 
-                        la función de proponer el stack tecnológico y el proceso ETL.
+            titulo:'Proyecto Yelps',
+            descripcion:`Este proyecto se desarrolló en un entorno real aplicando la metodología SCRUM, con roles bien definidos en el equipo. Asumí el rol de Data Engineer, encargado de proponer el stack tecnológico y gestionar el proceso ETL.
             `,
             tecnologias: [
                 'src\\img\\azure.png'

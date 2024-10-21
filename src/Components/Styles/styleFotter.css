@@ -26,4 +26,9 @@ a {
     text-decoration: none;
 }
 
+.link-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
 
