@@ -5,11 +5,8 @@ import "../Styles/styleAboutMain.css";
 import { useEffect } from "react";
 
 export const AboutMain = () => {
-  const miPresentacion = `Profesional en ingeniera con más de 1 año de experiencia en el área de soporte TI; adquiriendo las
-                            habilidades de trabajo en equipo, empatía y resolución de conflictos. Durante el bachillerato encontré
-                            la pasión de crear soluciones a problemas aplicando la tecnológica, llevándome a estudiar
-                            especializaciones en Desarrollo Web, Base de Datos y Data science. Estoy entusiasmado en aplicar
-                            tanto mis conocimientos técnicos y habilidades blandas en un nuevo proyecto tecnológico.                           
+  const miPresentacion = `Desarrollador web con experiencia en lenguajes como Python, JavaScript y Java. Tengo experiencia en diversos frameworks como Flask, React, Odoo y Django,
+y siempre estoy dispuesto a aprender nuevas tecnologías y adaptarme a sistemas innovadores.                            
 `;
   useEffect(() => {
     window.scrollTo(0, 0);

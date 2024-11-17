@@ -50,7 +50,7 @@ export const AboutHistory = () => {
             title: 'Programador TIC',
             subtitle: 'Win Empresas',
             description: 'Atender requerimientos del sistema ODOO. Utilizar Flask,JavaScript y Python para realizar automatizaciones.',
-            date: 'Marzo 2024 - Setiembre 2024',
+            date: 'Marzo 2024 - Noviembre 2024',
             icon_self: development,
             skills: [postgresql_img, python_img, flask_png,javascript_img ]
         }
