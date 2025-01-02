@@ -1,6 +1,9 @@
 import dominio from "../../img/dominio.png";
 import appingles from "../../img/proyectos/appingles.svg";
 import apideploy from "../../img/proyectos/apideploy.svg";
+import shortlinks from "../../img/proyectos/shortlinks.png";
+import shortlinksapi from "../../img/proyectos/apishort.png";
+import chabot from "../../img/proyectos/chatbot.png";
 
 export const ProyectosAll = () => {
 
@@ -38,6 +41,36 @@ export const ProyectosAll = () => {
         },
         {
             id: 3,
+            titulo:'Shortlinks',
+            descripcion:`Aplicación web para generar enlaces cortos a páginas web, con el objetivo de reducir el tiempo que se necesita para acceder a sitios web.
+            `,
+            tecnologias: [
+                'src\\img\\python-48.ico',
+                'src\\img\\postgresql.png'
+            ],
+            link_github: 'https://github.com/JeanEspinoza10/frontShortLinks',
+            link_despliegue:'https://app.linksfast.site/',
+            icono_despliegue:dominio,
+            link_youtube: '',
+            url_img: shortlinks
+        },
+        {
+            id: 4,
+            titulo:'Api - Shortlinks',
+            descripcion:`API para generar enlaces cortos a páginas web, y obtener sus estadísticas.
+            `,
+            tecnologias: [
+                'src\\img\\python-48.ico',
+                'src\\img\\postgresql.png'
+            ],
+            link_github: 'https://github.com/JeanEspinoza10/frontShortLinks',
+            link_despliegue:'https://linksfast.site/api-docs/',
+            icono_despliegue:dominio,
+            link_youtube: '',
+            url_img: shortlinksapi
+        },
+        {
+            id: 5,
             titulo:'ChatBot',
             descripcion:`Proyecto creado con el objetivo de transformar la experiencia de atención en restaurantes, cubriendo la necesidad urgente de un chatbot eficiente.
             `,
@@ -47,21 +80,9 @@ export const ProyectosAll = () => {
             ],
             link_github: 'https://github.com/JeanEspinoza10/chatbot_restaurante',
             link_despliegue:'',
-            icono_despliegue:'',
-            link_youtube: ''
-        },
-        {
-            id: 4,
-            titulo:'Proyecto Yelps',
-            descripcion:`Este proyecto se desarrolló en un entorno real aplicando la metodología SCRUM, con roles bien definidos en el equipo. Asumí el rol de Data Engineer, encargado de proponer el stack tecnológico y gestionar el proceso ETL.
-            `,
-            tecnologias: [
-                'src\\img\\azure.png'
-            ],
-            link_github: 'https://github.com/Mandrad3/PGFINAL',
-            link_despliegue:'',
-            icono_despliegue:'',
-            link_youtube: 'https://youtu.be/4J0_cUuzs7s?t=79'
+            icono_despliegue:dominio,
+            link_youtube: '',
+            url_img: chabot
         }
 
     ];
